@@ -1,0 +1,106 @@
+/* The Modal (background) */
+.popup-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+ 
+/* Modal Content/Box */
+.email-download-popup {
+    background-color: #fefefe;
+    margin: 18% auto; /* 18% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    min-height: 280px;
+    overflow: hidden;
+    border-radius: 5px;
+	margin: 18% auto;
+	width: 50%;
+}
+
+.email-download-popup .sent {
+    display: none;
+}
+
+.email-download-popup form.wpcf7-form {
+    margin: 15px 0 15px;
+}
+
+.ebd_link {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#ebdp-h2 {
+	margin: 20px 0px 35px;
+}
+
+/* The Close Button */
+.popup-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.popup-close:hover,
+.popup-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a#email-download-btn {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a#email-download-btn:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+/* Contact forms 7 styling */
+
+div.wpcf7-response-output { 
+	overflow: hidden;
+   margin: 19em 0em 1em;
+	 padding: 0.8em 0.2em;
+}
+
+.email-download-popup form.wpcf7-form {
+    margin: 15px 0 15px;
+}
+
+input.wpcf7-form-control {
+	border: 1px solid grey !important;
+	border-radius: 3px;
+}
+
+.ebd_results {
+	margin: 101px 0px;
+}
+
+@media all and (max-width:30em){
+    a#email-download-btn {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
